@@ -505,3 +505,10 @@ h2 em{font-size:1.06em}
   background:linear-gradient(90deg,transparent,var(--accent),transparent);opacity:0;transform:scaleX(.4);transition:opacity .35s var(--ease),transform .5s var(--ease);pointer-events:none}
 .hw-fam:hover::after,.glance:hover::after{opacity:1;transform:scaleX(1)}
 @media(prefers-reduced-motion:reduce){.hw-fam:hover,.glance:hover{transform:none}}
+/* repositories: category blurbs and the role line on each card */
+#features h3+.catb{max-width:820px;margin:-4px 0 22px}
+h3.cat-vv+.catb+.cards .rcard{background:var(--tint-2)}
+h3.cat-vv+.catb+.cards .rcard .tech{color:var(--accent-2)}
+.rcard .rrole{margin-top:4px;font:500 12px var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
+h3.cat-vv+.catb+.cards .rcard .rrole{color:var(--accent-2)}
+.rcard .rrole .rmeta{text-transform:none;letter-spacing:0;font-weight:400}
