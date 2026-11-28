@@ -512,3 +512,4 @@ h3.cat-vv+.catb+.cards .rcard .tech{color:var(--accent-2)}
 .rcard .rrole{margin-top:4px;font:500 12px var(--mono);letter-spacing:.04em;text-transform:uppercase;color:var(--accent)}
 h3.cat-vv+.catb+.cards .rcard .rrole{color:var(--accent-2)}
 .rcard .rrole .rmeta{text-transform:none;letter-spacing:0;font-weight:400}
+#features h3[id]{scroll-margin-top:84px}
